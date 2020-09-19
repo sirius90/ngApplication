@@ -8,7 +8,7 @@ You can clone and open the solution file ngApplication.sln with Visual Studio 20
 
 The main logic of the solution can be found in ngApplication-> Controllers-> UploadController.cs
 
-A unit test project is included with the respective test file that contains the JSON Schema.
+A unit test project is included with a respective test file that contains the JSON Schema.
 
 
 
