@@ -17,6 +17,10 @@ namespace ngApplication.Controllers
     [Route("api/[controller]")]
     public class UploadController : Controller
     {
+        public UploadController()
+        {
+
+        }
 
         [HttpPost, DisableRequestSizeLimit]
         public async Task<Result> Post()
