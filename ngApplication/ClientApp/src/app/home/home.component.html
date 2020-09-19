@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-5">
+    <h3>Sum Result</h3>
+    <textarea disabled class="form-control" rows="10" cols="15">{{Result?.Count}}</textarea>
+  </div>
+  <div class="col-md-5">
+    <input type="file" (change)="uploadFile($event)" />
+    <p>{{status}}</p>
+    <hr />
+    <button [disabled]="loading" class="btn btn-primary btn-lg" (click)="GetCount()">
+      <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>Parse
+    </button>
+  </div>
+</div>
