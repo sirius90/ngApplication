@@ -7,6 +7,7 @@ This is an Angular ASP.NET Core MVC web application that parses through a text f
 You can clone and open the solution file ngApplication.sln with Visual Studio 2019.
 
 The main logic of the solution can be found in ngApplication-> Controllers-> UploadController.cs
+
 A unit test project is included with the respective test file that contains the JSON Schema.
 
 
