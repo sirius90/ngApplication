@@ -21,4 +21,5 @@ A unit test project is included with a respective test file that contains the JS
 // Created using Microsoft Visual Studio Professional 2019 acquired through a MSDN Professional license. 
 
 // Not published to Azure App Service Subcription. 
+
 // This repository was created in part of an interview code test.
