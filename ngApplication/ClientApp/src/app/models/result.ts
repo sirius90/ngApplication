@@ -1,3 +1,3 @@
 export class Result {
-  Count: string;  
+  Count: number;  
 }

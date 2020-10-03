@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Component, Injectable, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
@@ -8,7 +8,7 @@ export class FileUploadService {
 
   baseURL: string;
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient ) {
     this.baseURL = '/api/Upload';
   }
 

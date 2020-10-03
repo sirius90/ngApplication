@@ -99,10 +99,10 @@ namespace ngApplication.Controllers
         }
 
         // POST api/<controller>
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
+        //[HttpPost]
+        //public void Post([FromBody]string value)
+        //{
+        //}
 
         // PUT api/<controller>/5
         [HttpPut("{id}")]

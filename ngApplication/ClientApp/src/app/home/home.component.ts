@@ -12,7 +12,7 @@ export class HomeComponent {
   loading = false;
   textFile;
   fileData = new FormData();
-  Result: Result;
+  result: Result;
   DefaultStatus: string;
   status: string;
   maxFileSize: number;
@@ -43,7 +43,7 @@ export class HomeComponent {
       this.fileUploadService.fileUpload(this.fileData).subscribe(
         (result: Result) => {
 
-            this.Result = result;         
+          this.result = result;         
             this.loading = false;
         });
     
